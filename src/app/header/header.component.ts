@@ -14,7 +14,6 @@ export class HeaderComponent implements OnInit {
   }
 
   onSelect(feature: string) {
-    console.log('onSelect', feature);
     this.featureSelected.emit(feature);
   }
 
